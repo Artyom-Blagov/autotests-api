@@ -1,5 +1,3 @@
-from idlelib.rpc import response_queue
-
 import grpc
 
 import user_service_pb2
