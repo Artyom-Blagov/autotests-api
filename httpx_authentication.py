@@ -1,6 +1,5 @@
 import httpx
 
-
 login_payload = {
     "email": "admin@mail.ru",
     "password": "12345"
