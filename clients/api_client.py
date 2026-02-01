@@ -1,7 +1,8 @@
-from httpx import Client, URL, QueryParams, Response
-
-from httpx._types import RequestData, RequestFiles
 from typing import Any
+
+from httpx import Client, URL, QueryParams, Response
+from httpx._types import RequestData, RequestFiles
+
 
 class APIClient:
     def __init__(self, client: Client):
@@ -57,4 +58,4 @@ class APIClient:
         :param url: URL-адрес эндпоинта.
         :return: Объект Response с данными ответа.
         """
-        return self.client.patch(url)
+        return self.client.delete(url)
