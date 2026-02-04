@@ -13,7 +13,7 @@ public_users_client = get_public_users_client()
 
 #Создаём пользователя
 create_user_request = CreateUserRequestSchema(
-    email=get_random_email(),
+    email=fake.email(),
     password="string",
     last_name="string",
     first_name="string",
