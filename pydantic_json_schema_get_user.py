@@ -35,3 +35,4 @@ get_user_data = GetUserResponseSchema.model_validate(get_user_response.json())
 # Валидация JSON схемы
 get_user_response_schema = GetUserResponseSchema.model_json_schema()
 validate_json_schema(instance=get_user_data.model_dump(by_alias=True), schema=get_user_response_schema)
+
