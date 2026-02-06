@@ -1,12 +1,13 @@
+from http import HTTPStatus
+
 from clients.users.public_users_client import get_public_users_client
 from clients.users.users_schema import CreateUserRequestSchema
 from clients.authentication.authentication_client import get_authentication_client
 from clients.authentication.authentication_schema import LoginResponseSchema, LoginRequestSchema
+
 from tools.assertions.schema import validate_json_schema
 from tools.assertions.base import assert_status_code
 from tools.assertions.authentication import assert_login_response
-from http import HTTPStatus
-
 
 def test_login():
     public_users_client = get_public_users_client()
@@ -27,8 +28,7 @@ def test_login():
 
     assert_login_response(login_response_data)
 
-    validate_json_schema(instance=login_response_data.model_dump(), schema=LoginResponseSchema.model_json_schema())
-
+    validate_json_schema(login_response.json(), login_response_data.model_json_schema())
 
 
 
