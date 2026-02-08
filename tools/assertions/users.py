@@ -2,7 +2,10 @@ from clients.users.users_schema import CreateUserRequestSchema, CreateUserRespon
 from clients.users.users_schema import UserSchema
 from tools.assertions.base import assert_equal
 
-def assert_create_user_response(request: CreateUserRequestSchema, response: CreateUserResponseSchema):
+def assert_create_user_response(
+        request: CreateUserRequestSchema,
+        response: CreateUserResponseSchema
+):
     """
     Проверяет, что ответ на создание пользователя соответствует запросу.
 
@@ -17,13 +20,11 @@ def assert_create_user_response(request: CreateUserRequestSchema, response: Crea
 
 def assert_user(actual:UserSchema, expected: UserSchema):
     """
-    Проверяет корректность данных пользователя.
+    Проверяет, что ответ на получение пользователя соответствует ответу на его создание.
 
-    Сравнивает id, email, last_name, first_name, middle_name двух объектов UserSchema.
-
-    :param actual: Фактические данные пользователя.
-    :param expected: Ожидаемые данные пользователя.
-    :raises AssertionError: Если хотя бы одно поле не совпадает.
+    :param get_user_response: Ответ API при запросе данных пользователя.
+    :param create_user_response: Ответ API при создании пользователя.
+    :raises AssertionError: Если данные пользователя не совпадают.
     """
     assert_equal(actual.id, expected.id, "id")
     assert_equal(actual.email, expected.email, "email")
@@ -31,14 +32,15 @@ def assert_user(actual:UserSchema, expected: UserSchema):
     assert_equal(actual.first_name, expected.first_name, "first_name")
     assert_equal(actual.middle_name, expected.middle_name, "middle_name")
 
-def assert_get_user_response(actual: GetUserResponseSchema, expected: CreateUserResponseSchema):
+def assert_get_user_response(
+        actual: GetUserResponseSchema,
+        expected: CreateUserResponseSchema
+):
     """
-    Проверяет корректность данных пользователя.
+    Проверяет, что ответ на получение пользователя соответствует ответу на его создание.
 
-    Сравнивает id, email, last_name, first_name, middle_name двух объектов UserSchema.
-
-    :param actual: Фактические данные пользователя.
-    :param expected: Ожидаемые данные пользователя.
-    :raises AssertionError: Если хотя бы одно поле не совпадает.
+    :param get_user_response: Ответ API при запросе данных пользователя.
+    :param create_user_response: Ответ API при создании пользователя.
+    :raises AssertionError: Если данные пользователя не совпадают.
     """
     assert_user(actual.user, expected.user)
