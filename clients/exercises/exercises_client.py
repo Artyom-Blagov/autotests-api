@@ -75,7 +75,7 @@ class ExercisesClient(APIClient):
         return UpdateExerciseResponseSchema.model_validate_json(response.text)
 
 #Добавляем builder для ExercisesClient
-def get_exercise_client(user: AuthenticationUserSchema) -> ExercisesClient:
+def get_exercises_client(user: AuthenticationUserSchema) -> ExercisesClient:
     """
     Функция создаёт экземпляр ExercisesClient с уже настроенным HTTP-клиентом.
 
