@@ -13,13 +13,13 @@ class CourseFixture(BaseModel):
 
 @pytest.fixture()
 def courses_client(function_user: UserFixture) -> CoursesClient:
-    return get_courses_client(function_user.authen)
+    return get_courses_client(function_user.authentication_user)
 
-@pytest.fixture
+@pytest.fixture()
 def function_course(
         courses_client: CoursesClient,
         function_user: UserFixture,
-        function_file: FileFixture
+        function_file: FileFixture,
 ) -> CourseFixture:
     request = CreateCourseRequestSchema(
         preview_file_id=function_file.response.file.id,
