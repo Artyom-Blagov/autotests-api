@@ -26,4 +26,9 @@ class CreateFileResponseSchema(BaseModel):
     """
     file: FileSchema
 
-print(CreateFileRequestSchema(upload_file="./test/file.txt"))
+
+class GetFileResponseSchema(BaseModel):
+    """
+    Описание структуры запроса получения файла.
+    """
+    file: FileSchema
