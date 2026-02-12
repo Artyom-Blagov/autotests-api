@@ -12,7 +12,6 @@ from tools.assertions.exercises import assert_create_exercise_response, assert_g
     assert_update_exercise_response
 from tools.assertions.schema import validate_json_schema
 
-
 @pytest.mark.exercises
 @pytest.mark.regression
 class TestExercises:
