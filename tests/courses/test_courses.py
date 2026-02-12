@@ -1,7 +1,6 @@
-from http import HTTPStatus
-
 import pytest
 
+from http import HTTPStatus
 from clients.courses.courses_client import CoursesClient
 from clients.courses.courses_schema import UpdateCourseRequestSchema, UpdateCourseResponseSchema, GetCoursesQuerySchema, \
     GetCoursesResponseSchema, CreateCourseRequestSchema, CreateCourseResponseSchema
@@ -48,10 +47,15 @@ class TestCourses:
         # Валидируем JSON-схему ответа
         validate_json_schema(response.json(), response_data.model_json_schema())
 
-    def test_create_course(self, courses_client: CoursesClient, function_course: CourseFixture, function_file, function_user: UserFixture):
+    def test_create_course(
+            self,
+            courses_client: CoursesClient,
+            function_user: UserFixture,
+            function_file,
+    ):
         request = CreateCourseRequestSchema(
             preview_file_id=function_file.response.file.id,
-            createdByUserId=function_user.response.user.id
+            created_by_user_id=function_user.response.user.id
         )
         response = courses_client.create_course_api(request)
         response_data = CreateCourseResponseSchema.model_validate_json(response.text)
