@@ -24,6 +24,13 @@ def assert_get_exercise_response(
         actual: GetExerciseResponseSchema,
         expected: ExerciseSchema
 ):
+    """
+     Проверяет, что ответ GET-запроса соответствует ожидаемым данным задания.
+
+     :param actual: Фактический ответ от API (GetExerciseResponseSchema)
+     :param expected: Ожидаемые данные задания (ExerciseSchema из CreateExerciseResponseSchema)
+     :raises AssertionError: Если хотя бы одно поле не совпадает
+     """
     assert_exercise(actual.exercise, expected)
 
 def assert_create_exercise_response(
