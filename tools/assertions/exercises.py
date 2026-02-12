@@ -1,7 +1,7 @@
 from clients.exercises.exercises_schema import (CreateExerciseRequestSchema,
                                                 CreateExerciseResponseSchema,
                                                 ExerciseSchema, GetExerciseResponseSchema, UpdateExerciseRequestSchema,
-                                                UpdateExerciseResponseSchema)
+                                                UpdateExerciseResponseSchema, GetExercisesResponseSchema)
 from clients.errors_schema import InternalErrorResponseSchema
 from tools.assertions.base import assert_equal
 from tools.assertions.errors import assert_internal_error_response
@@ -36,6 +36,11 @@ def assert_get_exercise_response(
      :raises AssertionError: Если хотя бы одно поле не совпадает
      """
     assert_exercise(actual.exercise, expected)
+
+def assert_get_exercises_response(
+        actual: GetExercisesResponseSchema,
+        expected: list[CreateCourseResponseSchema]
+)
 
 def assert_create_exercise_response(
         request: CreateExerciseRequestSchema,

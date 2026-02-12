@@ -5,6 +5,12 @@ from clients.files.files_schema import CreateFileRequestSchema, CreateFileRespon
     GetFileResponseSchema
 from tools.assertions.base import assert_equal
 
+def assert_file(actual: FileSchema, expected: FileSchema):
+    assert_equal(actual.id, expected.id, "id")
+    assert_equal(actual.url, expected.url, "url")
+    assert_equal(actual.filename, expected.filename, "filename")
+    assert_equal(actual.directory, expected.directory, "directory")
+
 def assert_create_file_response(request: CreateFileRequestSchema, response: CreateFileResponseSchema):
     """
     Проверяет, что ответ на создание файла соответствует запросу.
@@ -17,12 +23,6 @@ def assert_create_file_response(request: CreateFileRequestSchema, response: Crea
     assert_equal(str(response.file.url), expected_url , "url")
     assert_equal(response.file.filename, request.filename, "filename")
     assert_equal(response.file.directory, request.directory, "directory")
-
-def assert_file(actual: FileSchema, expected: FileSchema):
-    assert_equal(actual.id, expected.id, "id")
-    assert_equal(actual.url, expected.url, "url")
-    assert_equal(actual.filename, expected.filename, "filename")
-    assert_equal(actual.directory, expected.directory, "directory")
 
 def assert_get_file_response(
         get_file_response: GetFileResponseSchema,
