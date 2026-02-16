@@ -1,4 +1,4 @@
-import pytest
+import pytest, allure
 from http import HTTPStatus
 
 from clients.users.public_users_client import PublicUsersClient
@@ -14,6 +14,7 @@ from tools.fakers import fake
 @pytest.mark.regression
 class TestUsers:
     @pytest.mark.parametrize("domain",["mail.ru", "gmail.com", "example.com"])
+    @allure.title("Create user")
     def test_create_user(self, domain: str, public_users_client: PublicUsersClient):
         request = CreateUserRequestSchema(email=fake.email(domain=domain))
         response = public_users_client.create_user_api(request)

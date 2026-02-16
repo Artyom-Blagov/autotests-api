@@ -1,6 +1,6 @@
 from http import HTTPStatus
 
-import pytest
+import pytest, allure
 
 from clients.errors_schema import ValidationErrorResponseSchema, InternalErrorResponseSchema
 from clients.files.files_client import FilesClient
@@ -16,6 +16,7 @@ from tools.assertions.files import assert_create_file_response, assert_get_file_
 @pytest.mark.files
 @pytest.mark.regression
 class TestFile:
+    @allure.title("Create file")
     def test_create_file(self, files_client: FilesClient):
         request = CreateFileRequestSchema(upload_file="./testdata/files/image.png")
         response = files_client.create_file_api(request)
@@ -25,7 +26,7 @@ class TestFile:
         assert_create_file_response(request, response_data)
 
         validate_json_schema(response.json(), response_data.model_json_schema())
-
+    @allure.title("Get file")
     def test_get_file(self, files_client: FilesClient, function_file: FileFixture):
         response = files_client.get_file_api(function_file.response.file.id)
         response_data = GetFileResponseSchema.model_validate_json(response.text)
@@ -34,7 +35,7 @@ class TestFile:
         assert_get_file_response(response_data, function_file.response)
 
         validate_json_schema(response.json(), response_data.model_json_schema())
-
+    @allure.title("Create file with empty filename")
     def test_create_file_with_empty_filename(self, files_client: FilesClient):
         request = CreateFileRequestSchema(
             filename="",
@@ -47,7 +48,7 @@ class TestFile:
         assert_create_file_with_empty_filename_response(response_data)
 
         validate_json_schema(response.json(), response_data.model_json_schema())
-
+    @allure.title("Create file with empty directory")
     def test_create_file_with_empty_directory(self, files_client: FilesClient):
         request = CreateFileRequestSchema(
             directory="",
