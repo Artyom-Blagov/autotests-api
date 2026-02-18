@@ -57,7 +57,7 @@ class ExercisesClient(APIClient):
     @allure.step("Delete exercise")
     def delete_exercise_api(self, exercise_id:str) -> Response:
         """
-        Метод удаления курса.
+        Метод удаления курса
 
         :param exercise_id: Идентификатор курса.
         :return: Ответ от сервера в виде объекта httpx.Response
