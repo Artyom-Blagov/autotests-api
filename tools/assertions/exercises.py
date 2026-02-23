@@ -8,6 +8,10 @@ from clients.errors_schema import InternalErrorResponseSchema
 from tools.assertions.base import assert_equal, assert_length
 from tools.assertions.errors import assert_internal_error_response
 
+from tools.logger import get_logger
+
+logger = get_logger("EXERCISES_ASSERTIONS")
+
 @allure.step("Check exercise")
 def assert_exercise(actual: ExerciseSchema, expected: ExerciseSchema):
     """

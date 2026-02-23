@@ -39,7 +39,7 @@ class TestFile:
         assert_create_file_response(request, response_data)
 
         validate_json_schema(response.json(), response_data.model_json_schema())
-
+    
     @allure.tag(AllureTag.GET_ENTITY)
     @allure.story(AllureStory.GET_ENTITIES)
     @allure.title("Get file")
