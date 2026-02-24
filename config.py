@@ -1,6 +1,8 @@
+from typing import Self
+
 from pydantic import BaseModel, HttpUrl, FilePath, DirectoryPath
 from pydantic_settings import BaseSettings, SettingsConfigDict
-from typing import Self
+
 
 class HTTPClientConfig(BaseModel):
     url: HttpUrl
@@ -33,6 +35,5 @@ class Settings(BaseSettings):
 
         return Settings(allure_results_dir=allure_results_dir)
 
-# Инициализируем настройки
 settings = Settings.initialize()
 
