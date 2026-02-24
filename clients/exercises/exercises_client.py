@@ -6,6 +6,7 @@ from clients.private_http_builder import AuthenticationUserSchema, get_private_h
 from clients.exercises.exercises_schema import GetExercisesQuerySchema, CreateExerciseRequestSchema, \
     UpdateExerciseRequestSchema, GetExerciseResponseSchema, GetExercisesResponseSchema, CreateExerciseResponseSchema, \
     UpdateExerciseResponseSchema
+from tools.routes import APIRoutes
 
 
 #Клиент
