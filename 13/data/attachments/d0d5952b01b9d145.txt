@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDEzOjQ2OjE1LjYwNDI1NSIsInVzZXJfaWQiOiJiZjNjMTY0Ny1kZGZiLTQ1MDUtODZmYS0zMzM4ZjRhODg2NDUifQ.UTeGc5c3UNF6XUSaJQnZa8QnOHoQT0HkrdBeuhi0I70'\
+  -H 'content-length: 436'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Successful seem second floor receive deep modern.","maxScore":52,"minScore":10,"description":"Know weight worker whether stuff sign. Couple dog deal behind question. Or adult outside prevent try.\nFeel contain some out such same suffer student. Million few this. Road though find then.","estimatedTime":"10 weeks","previewFileId":"65141deb-074a-4ea0-bea5-1b4d6e853a86","createdByUserId":"bf3c1647-ddfb-4505-86fa-3338f4a88645"}'

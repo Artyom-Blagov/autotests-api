@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/exercises'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDEzOjQ2OjE0LjM1OTYxMCIsInVzZXJfaWQiOiI4NDQxZWZiMS01MWZiLTRhM2UtODY4OS1mZTFhZGJjY2M4YWIifQ.Gk5E7aIxrzsJij6zh0eMC6X-RbHozp_WMY7OZOnO8Kw'\
+  -H 'content-length: 342'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Attorney administration director.","courseId":"271b135a-6398-4932-87e2-3cc13ea252cf","maxScore":75,"minScore":26,"orderIndex":8,"description":"Sister end green she finally. Skin something image trip at board.\nA act past she firm store. Popular understand business however. Reduce major watch serve born.","estimatedTime":"7 weeks"}'

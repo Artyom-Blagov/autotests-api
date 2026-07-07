@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+  'http://localhost:8000/api/v1/exercises/a184faf4-bc2e-481b-8158-9947aefce218'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDEzOjQ2OjEzLjc4MjA5NyIsInVzZXJfaWQiOiIzOGVmZWIzNy0wMmM0LTQ3ZjYtYjYxOS05MjYzZWQxNjkwNWQifQ.jcNFSSS1_kdvZ2Om6B5Cd0JLQ_EAyzVJHi8hgHjyGUM'\
+  -H 'content-length: 312'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Sing bring watch former customer least various.","maxScore":79,"minScore":27,"orderIndex":5,"description":"Leader guess happen hotel region operation himself process. Music radio charge color stage father occur.\nStation despite production protect training response capital.","estimatedTime":"8 weeks"}'

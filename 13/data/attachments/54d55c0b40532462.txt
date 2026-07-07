@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:66 Check create course response
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'title' equals to Drug out reveal not garden but picture training.
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'max_score' equals to 58
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'min_score' equals to 24
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'description' equals to Sit test others hot such listen decide. Very theory no entire reduce place. Area color program stop.
+Section allow sense rest. Father significant parent yard early. Trade positive theory require.
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'estimated_time' equals to 2 weeks
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'id' equals to a9488cc5-dfa4-4b3e-94c0-714a6024caf5
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'id' equals to 17cccc6d-03e8-4c8f-a668-13844342d060
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validate JSON-schema

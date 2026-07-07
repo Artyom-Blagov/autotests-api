@@ -1,0 +1,18 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Make PATCH request to http://localhost:8000/api/v1/courses/d3472f99-0076-4546-b01d-fc68525f15b3
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses/d3472f99-0076-4546-b01d-fc68525f15b3
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:88 Check update course response
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'title' equals to Professor film reach information show agreement ever.
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'max_score' equals to 56
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'min_score' equals to 18
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'description' equals to Serve sing message somebody democratic plan stuff. According development on reflect any war find. Head result student range benefit fear indeed. Between money direction check.
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'estimated_time' equals to 3 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validate JSON-schema

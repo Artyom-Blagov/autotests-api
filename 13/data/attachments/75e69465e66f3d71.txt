@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+  'http://localhost:8000/api/v1/courses/d3472f99-0076-4546-b01d-fc68525f15b3'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDEzOjQ2OjExLjM4OTYzNyIsInVzZXJfaWQiOiJiZGJhMzRhZi1kM2I4LTRjZjYtODZlMC01OGQ1NTBiNjE1NDAifQ.tBzGeIM5wf_ct3QuEAPbdl9eucfHXMe67uAmGL5wgi0'\
+  -H 'content-length: 311'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Professor film reach information show agreement ever.","maxScore":56,"minScore":18,"description":"Serve sing message somebody democratic plan stuff. According development on reflect any war find. Head result student range benefit fear indeed. Between money direction check.","estimatedTime":"3 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDEzOjQ2OjEzLjE5MzkxNiIsInVzZXJfaWQiOiIyMWRlMTA0ZS0wNzUzLTQwNDEtYTMyOS03ODM4Y2Y5YjAyYmIifQ.YWSbZLNmRZqRJ0gjQ2tnXraoAjbcTqghMC8LQIp4pso'\
+  -H 'content-length: 402'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Personal shake special.","maxScore":93,"minScore":22,"description":"Reduce bed type adult face. Inside understand bill generation. Begin wall public hour happen research.\nFuture none hospital. Republican walk activity data event. Song range avoid add.","estimatedTime":"3 weeks","previewFileId":"9d36c4ab-ed27-4efe-b1cc-7af0d07a6961","createdByUserId":"21de104e-0753-4041-a329-7838cf9b02bb"}'

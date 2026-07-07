@@ -1,0 +1,25 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises?courseId=d7ec5ed3-0eb7-4885-a7aa-e030c49cefe8
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=d7ec5ed3-0eb7-4885-a7aa-e030c49cefe8
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:63 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:68 Check that lenght of 'exercises' equals to 1
+INFO     EXERCISES_ASSERTIONS:exercises.py:24 Check exercise
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'id' equals to 42f8cf48-e5e9-409d-af4a-7e1a0a7de173
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'title' equals to Add painting country chair to from.
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'course_id' equals to d7ec5ed3-0eb7-4885-a7aa-e030c49cefe8
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'min_score' equals to 30
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'max_score' equals to 96
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'order_index' equals to 20
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'description' equals to Special approach must animal some keep teacher. Prevent once technology certain treat question. Later glass none suggest meeting environment.
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'estimated_time' equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validate JSON-schema

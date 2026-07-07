@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDEzOjQ2OjE1LjAyNTc4NSIsInVzZXJfaWQiOiI1ZmExZTM3YS02MWUzLTRjYzEtYjdhNC1hOWNkMjQzZDJhMDcifQ.MXBQGBJ3LZTAgU5yNEiF8j0kdzPTx1XG5hkyV42tkPY'\
+  -H 'content-length: 299'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Support develop pressure keep star kid.","maxScore":94,"minScore":3,"description":"Purpose kind population arrive none. Happen decade hotel pressure.","estimatedTime":"5 weeks","previewFileId":"0cf62289-1db2-485d-a430-32190fa02a97","createdByUserId":"5fa1e37a-61e3-4cc1-b7a4-a9cd243d2a07"}'

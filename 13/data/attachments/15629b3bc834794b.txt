@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDEzOjQ2OjExLjM4OTYzNyIsInVzZXJfaWQiOiJiZGJhMzRhZi1kM2I4LTRjZjYtODZlMC01OGQ1NTBiNjE1NDAifQ.tBzGeIM5wf_ct3QuEAPbdl9eucfHXMe67uAmGL5wgi0'\
+  -H 'content-length: 323'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Black movie beautiful couple change history.","maxScore":91,"minScore":13,"description":"Station be cell forward point animal thousand. Political impact step yet close born.","estimatedTime":"8 weeks","previewFileId":"b7921a14-f2a9-4cb8-b01c-ff9f85b41a2b","createdByUserId":"bdba34af-d3b8-4cf6-86e0-58d550b61540"}'

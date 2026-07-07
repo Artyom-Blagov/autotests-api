@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDEzOjQ2OjEzLjc4MjA5NyIsInVzZXJfaWQiOiIzOGVmZWIzNy0wMmM0LTQ3ZjYtYjYxOS05MjYzZWQxNjkwNWQifQ.jcNFSSS1_kdvZ2Om6B5Cd0JLQ_EAyzVJHi8hgHjyGUM'\
+  -H 'content-length: 395'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Professor finally by glass oil get each couple.","maxScore":56,"minScore":19,"description":"White conference eat rate clearly skin simply course. See sell between approach pick body.\nStation see truth none consider. Statement person from enjoy.","estimatedTime":"4 weeks","previewFileId":"852a3833-9ca1-4150-a129-d0dd2a739249","createdByUserId":"38efeb37-02c4-47f6-b619-9263ed16905d"}'

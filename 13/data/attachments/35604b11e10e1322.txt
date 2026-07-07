@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDEzOjQ2OjExLjk3NzA1OSIsInVzZXJfaWQiOiI3ODk4MzY5Yi1kMzJkLTQ1YzYtOWU1Mi1iMjg3N2NjNzk3ZDEifQ.Mv3gSDbY1uzi3At971Npu8a2Yk5LvSSmgQXOwLuv8FA'\
+  -H 'content-length: 412'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Break campaign write begin actually people according onto.","maxScore":69,"minScore":12,"description":"Again serious would whom safe son. Drug bank call executive second site great.\nQuite save try relationship beat. Sister newspaper serve. Next ever later beat.","estimatedTime":"9 weeks","previewFileId":"eaa9f028-37fc-444d-886c-ef203d8b7875","createdByUserId":"7898369b-d32d-45c6-9e52-b2877cc797d1"}'
