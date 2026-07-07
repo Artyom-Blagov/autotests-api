@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDIwOjMwOjIxLjg2ODA0MCIsInVzZXJfaWQiOiI3YzJkOGQxYS0yZDE4LTQ2MGUtYjFiYS0xNGQ4Yjk1YTFkZGMifQ.xQAFZ3eC71u91REprIMZEayPF5xyV6IexJQ0athNoqY'\
+  -H 'content-length: 336'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Road court training thank source somebody democratic.","maxScore":82,"minScore":8,"description":"Leave group state reveal street.\nCamera number room heart right. Stage line room member.","estimatedTime":"5 weeks","previewFileId":"d59bc667-bfbb-4ee3-a9e1-0dde2ac64a84","createdByUserId":"7c2d8d1a-2d18-460e-b1ba-14d8b95a1ddc"}'

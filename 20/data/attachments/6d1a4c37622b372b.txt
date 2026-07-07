@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDIwOjMwOjIxLjIwMzAyMiIsInVzZXJfaWQiOiJiZDA5ZDY3MS1lMTI4LTQ0YmYtYjc3MS01ZmE4MTEzMjJhZTMifQ.h-h3_nLDrDSrLWo__YjCQs9WVV6Fv4-vyw5H-kHkY4A'\
+  -H 'content-length: 369'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Seven memory possible up color population series.","maxScore":89,"minScore":30,"description":"Deep certain front.\nThreat fall film politics nice at what mouth. Religious sing one coach. Hotel rise guy fish build drive.","estimatedTime":"1 weeks","previewFileId":"d31873d9-5916-4479-8a46-17d2eac4ce25","createdByUserId":"bd09d671-e128-44bf-b771-5fa811322ae3"}'

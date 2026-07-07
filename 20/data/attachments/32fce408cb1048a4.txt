@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDIwOjMwOjE4Ljc4NTM3NiIsInVzZXJfaWQiOiIwM2FiNzE5Ni00ODBiLTRkYmYtODM0NS00NGZlOWExZWU4YzcifQ.3bV8PjfwayZmhyKsNcCcqeVY5VR7evgyAI-kF1iRC4s'\
+  -H 'content-length: 418'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Name cost ok interview sure.","maxScore":93,"minScore":8,"description":"Door general career meeting of education. Set experience fill produce. Worker street race condition whether two.\nWhy kitchen message often. Long part town whom discussion letter. Black race down.","estimatedTime":"1 weeks","previewFileId":"c74d42f9-0a09-49a5-a9a2-12f70a69192e","createdByUserId":"03ab7196-480b-4dbf-8345-44fe9a1ee8c7"}'

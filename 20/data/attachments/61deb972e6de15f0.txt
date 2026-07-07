@@ -1,0 +1,25 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGGER:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/bdc884be-dec6-4b66-b11e-074a78231a8d
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/exercises/bdc884be-dec6-4b66-b11e-074a78231a8d
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:47 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:24 Check exercise
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'id' equals to bdc884be-dec6-4b66-b11e-074a78231a8d
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'title' equals to Meet citizen stock change arrive easy arm.
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'course_id' equals to 8d11f61c-f4cc-4c3f-b383-b525a75dcd6a
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'min_score' equals to 8
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'max_score' equals to 71
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'order_index' equals to 58
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'description' equals to Glass enter middle add. Property trouble charge. Test office a detail door. Arrive order car there grow artist.
+Option relate Republican. No coach almost movement always image door.
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'estimated_time' equals to 8 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validate JSON-schema

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDIwOjMwOjIwLjQxNTc2MyIsInVzZXJfaWQiOiIxOWViMDg1MC1iYmUxLTQ1MWItOTdjYy1lN2QzMGE2Yjg5NGEifQ.uSp38PYPoMF56kQYvwsACY849Bgt7I4BQLh1dPn8VIM'\
+  -H 'content-length: 385'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Somebody dream bit consider miss.","maxScore":93,"minScore":20,"description":"Learn total win. Half dream still positive father someone themselves.\nEdge nearly discussion. Scientist after all million serve reality. Benefit option art.","estimatedTime":"9 weeks","previewFileId":"daf32ea9-7346-4cea-99b4-57d174c898dc","createdByUserId":"19eb0850-bbe1-451b-97cc-e7d30a6b894a"}'

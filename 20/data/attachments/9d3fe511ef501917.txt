@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+  'http://localhost:8000/api/v1/exercises/0439fee0-2197-4974-831c-7f7ff51373ff'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDIwOjMwOjIwLjEwNjg3MSIsInVzZXJfaWQiOiIzMWFjZjFhNS04N2UzLTRlM2ItOWM3Zi1kODZjODBmNmZiYjYifQ.3xQZ6aIoZuIWxJABlrE4VVytSrQ6HNmtxPasfOiNMPk'\
+  -H 'content-length: 255'\
+  -H 'content-type: application/json'\
+  -d '{"title":"House baby prove at real first very treatment.","maxScore":76,"minScore":14,"orderIndex":34,"description":"Can radio team nor continue fine. Worry enough back walk. Source something already yet sometimes though voice.","estimatedTime":"6 weeks"}'

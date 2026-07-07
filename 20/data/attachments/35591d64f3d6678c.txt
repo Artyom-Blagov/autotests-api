@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDIwOjMwOjIwLjEwNjg3MSIsInVzZXJfaWQiOiIzMWFjZjFhNS04N2UzLTRlM2ItOWM3Zi1kODZjODBmNmZiYjYifQ.3xQZ6aIoZuIWxJABlrE4VVytSrQ6HNmtxPasfOiNMPk'\
+  -H 'content-length: 381'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Condition investment feel message through.","maxScore":51,"minScore":15,"description":"Share or source news probably hand. Simply environment same could serious. Four bar out put. Leader treat through after serve sense claim stage.","estimatedTime":"5 weeks","previewFileId":"a9fa5d16-6195-420a-ac0b-e384c677ab7f","createdByUserId":"31acf1a5-87e3-4e3b-9c7f-d86c80f6fbb6"}'

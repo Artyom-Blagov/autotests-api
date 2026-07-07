@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/exercises'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDIwOjMwOjIwLjQxNTc2MyIsInVzZXJfaWQiOiIxOWViMDg1MC1iYmUxLTQ1MWItOTdjYy1lN2QzMGE2Yjg5NGEifQ.uSp38PYPoMF56kQYvwsACY849Bgt7I4BQLh1dPn8VIM'\
+  -H 'content-length: 372'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Meet citizen stock change arrive easy arm.","courseId":"8d11f61c-f4cc-4c3f-b383-b525a75dcd6a","maxScore":71,"minScore":8,"orderIndex":58,"description":"Glass enter middle add. Property trouble charge. Test office a detail door. Arrive order car there grow artist.\nOption relate Republican. No coach almost movement always image door.","estimatedTime":"8 weeks"}'
