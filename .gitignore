@@ -3,8 +3,11 @@
 
 # python
 .venv
+<<<<<<< HEAD
 
 venv
+=======
+>>>>>>> 0421c15620a4a88c4e991fa2273b2ab1aa9a16c1
 env
 __pycache__
 

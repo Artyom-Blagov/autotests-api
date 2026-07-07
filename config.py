@@ -19,7 +19,11 @@ class TestDataConfig(BaseModel):
 
 class Settings(BaseSettings):
     model_config = SettingsConfigDict(
+<<<<<<< HEAD
         extra="allow",
+=======
+        extra='allow',
+>>>>>>> 0421c15620a4a88c4e991fa2273b2ab1aa9a16c1
         env_file=".env",
         env_file_encoding="utf-8",
         env_nested_delimiter=".",
