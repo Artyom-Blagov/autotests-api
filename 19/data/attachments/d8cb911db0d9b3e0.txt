@@ -1,0 +1,19 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:66 Check create course response
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'title' equals to Most son prevent area concern.
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'max_score' equals to 67
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'min_score' equals to 8
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'description' equals to Standard camera night. Soon manager mission modern unit coach.
+Week plant save character former before instead. Detail stuff participant reach majority quickly.
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'estimated_time' equals to 3 weeks
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'id' equals to 02c97dbe-9e81-4776-a779-b11ed21c5c4c
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'id' equals to 8868deb2-3872-478e-9b8f-f784adf53546
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validate JSON-schema

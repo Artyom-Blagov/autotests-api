@@ -1,0 +1,20 @@
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGGER:event_hooks.py:26 Make PATCH request to http://localhost:8000/api/v1/courses/0131cb8f-4241-40ce-95b5-ec17764aab20
+INFO     HTTP_LOGGER:event_hooks.py:35 Got response 200 OK from http://localhost:8000/api/v1/courses/0131cb8f-4241-40ce-95b5-ec17764aab20
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:88 Check update course response
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'title' equals to Food vote bag.
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'max_score' equals to 71
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'min_score' equals to 17
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'description' equals to Finish growth third continue team. Partner work way class fear spend.
+Add where meeting.
+Central me policy position short management. Church wonder describe hotel nearly choose report.
+INFO     BASE_ASSERTIONS:base.py:34 Check that 'estimated_time' equals to 5 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validate JSON-schema

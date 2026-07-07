@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+  'http://localhost:8000/api/v1/courses/0131cb8f-4241-40ce-95b5-ec17764aab20'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDE4OjA0OjE0LjMxMTA3NiIsInVzZXJfaWQiOiI1Mzc2ZDZjMi1hNTE5LTRmMzctOTI0Yy0zODU0OWZjMWEyOWYifQ.8Lh8vcqf8LdWkXtvjfnd9MT6RoFQkz1RkPnsIhURm64'\
+  -H 'content-length: 283'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Food vote bag.","maxScore":71,"minScore":17,"description":"Finish growth third continue team. Partner work way class fear spend.\nAdd where meeting.\nCentral me policy position short management. Church wonder describe hotel nearly choose report.","estimatedTime":"5 weeks"}'

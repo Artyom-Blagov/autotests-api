@@ -1,0 +1,11 @@
+curl -X 'PATCH'\
+  'http://localhost:8000/api/v1/exercises/8dc20cf2-f92e-4bec-8237-4706030e1322'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDE4OjA0OjE3LjAwMjgyMyIsInVzZXJfaWQiOiJiMDFiYjJlZS0xMmNiLTQwNjctYmFmZC1jMThmNTliMzBhNDAifQ.O6zYqK9wCAnLdys-xO3Dj2msiuaaudCHh91gLRtpEDY'\
+  -H 'content-length: 291'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Player line easy mean century morning.","maxScore":86,"minScore":28,"orderIndex":35,"description":"Science act happy win themselves.\nBaby sell major use. Mission would television somebody win write move. Available suggest thus none key former consider.","estimatedTime":"6 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDE4OjA0OjE1LjY5OTMzMCIsInVzZXJfaWQiOiI4ODY4ZGViMi0zODcyLTQ3OGUtOWI4Zi1mNzg0YWRmNTM1NDYifQ.9koukrugxUKVps-0d2w2Rm6aoC1JlKVoIHhRobEh924'\
+  -H 'content-length: 385'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Most son prevent area concern.","maxScore":67,"minScore":8,"description":"Standard camera night. Soon manager mission modern unit coach.\nWeek plant save character former before instead. Detail stuff participant reach majority quickly.","estimatedTime":"3 weeks","previewFileId":"02c97dbe-9e81-4776-a779-b11ed21c5c4c","createdByUserId":"8868deb2-3872-478e-9b8f-f784adf53546"}'

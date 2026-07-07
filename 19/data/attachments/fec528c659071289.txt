@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/exercises'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDE4OjA0OjE2LjM0ODk3NSIsInVzZXJfaWQiOiJiYjFhNzg1ZC1mNjU4LTQxN2QtYmRmNi04ZmI5NWJkZDc0M2QifQ.4mB8F3a4FtscLu9dvmru5Q8rJuaD31ojPN2rmvdro5Q'\
+  -H 'content-length: 352'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Buy specific hotel.","courseId":"530daf54-7685-4d79-bdfd-45b622c1df85","maxScore":81,"minScore":1,"orderIndex":17,"description":"Site particularly law machine. Second result study century.\nFact theory TV. Soon run rise health news religious.\nSay remember both sort. Whatever call statement budget ask kid piece.","estimatedTime":"10 weeks"}'

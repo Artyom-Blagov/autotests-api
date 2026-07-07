@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDE4OjA0OjE5LjAzNTU5MiIsInVzZXJfaWQiOiI5Y2FmNzJjYS00YjFhLTQ3YWItYjAzNy0wNDBhODU5ZGI1NTUifQ.b9HmaV4k_9PEBMwmqMq4kmVBS8MzsUN2hOtb7EF1Pk0'\
+  -H 'content-length: 291'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Watch want senior they rule Congress arm.","maxScore":94,"minScore":15,"description":"North step number. Past politics sport rather research.","estimatedTime":"1 weeks","previewFileId":"e72e6a38-9d54-4205-b341-6014462245fb","createdByUserId":"9caf72ca-4b1a-47ab-b037-040a859db555"}'

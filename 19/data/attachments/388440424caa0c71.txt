@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDE4OjA0OjE0Ljk4OTQxMiIsInVzZXJfaWQiOiJiOTYzMjk3My01NjA5LTQ3OWEtYTYwNC04MmExYmU5YWRlYTIifQ.neGadd80rJcz-DYDhpKiP2ro4udGtnVapZjuQVagSmk'\
+  -H 'content-length: 361'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Result pattern maintain face center wait board.","maxScore":80,"minScore":23,"description":"Small economy hope project professor.\nShoulder standard we movie student. Space could interesting. Against ok because.","estimatedTime":"8 weeks","previewFileId":"56dec297-5881-426c-9b9c-2812aed73548","createdByUserId":"b9632973-5609-479a-a604-82a1be9adea2"}'

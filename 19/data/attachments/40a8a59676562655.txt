@@ -1,0 +1,11 @@
+curl -X 'POST'\
+  'http://localhost:8000/api/v1/courses'\
+  -H 'host: localhost:8000'\
+  -H 'accept: */*'\
+  -H 'accept-encoding: gzip, deflate'\
+  -H 'connection: keep-alive'\
+  -H 'user-agent: python-httpx/0.28.1'\
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA3VDE4OjA0OjE3LjY1MDMxMCIsInVzZXJfaWQiOiI0Yjk5NzllYi0wZDI0LTQ3OTEtOWExNy01YjlmODY4YTZiOWEifQ.tjEjJ1d1GJ0ol9zaga_VGsCsulqLHcMIBnhNxdIyAIc'\
+  -H 'content-length: 326'\
+  -H 'content-type: application/json'\
+  -d '{"title":"Seat address heavy.","maxScore":62,"minScore":19,"description":"Head cost dinner little large onto across.\nTheory answer popular. Church quality teacher staff sure not people.","estimatedTime":"8 weeks","previewFileId":"404e5d90-870a-49a3-8c9d-03621215a31c","createdByUserId":"4b9979eb-0d24-4791-9a17-5b9f868a6b9a"}'
