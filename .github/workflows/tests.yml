@@ -45,7 +45,7 @@ jobs:
 
       - name: Upload Allure results
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v8.0.1
         with:
           name: allure-results
           path: allure-results
